@@ -107,6 +107,7 @@ public class empresaTransporte {
         scanner.nextLine(); 
 
         Transporte vehiculo = null;
+        
         if (tipoVehiculo.equals("carro")) {
             vehiculo = new empresaTransporte().new Carro(marca, modelo, velocidadMaxima);
         } else if (tipoVehiculo.equals("moto")) {
